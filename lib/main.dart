@@ -83,7 +83,7 @@ class MyFlutterState extends State<MyFlutterApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black54,
+      backgroundColor: const Color(0xff3e87c5),
       body: Align(
         alignment: Alignment.center,
         child: SizedBox(
